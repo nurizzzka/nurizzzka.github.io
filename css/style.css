@@ -1,0 +1,44 @@
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background: #fcf2fc;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#container {
+	margin: 20px;
+}
+.github_logo {
+	width: 100px;
+	height: 100px;
+}
+
+header {
+	background: #965151;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	background: #965151;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+footer img {
+	height: 20px;
+	width: 20px;
+}
+button {
+
+}
+
+.contacts img {
+	height: 20px;
+	width: 20px;
+	margin: 20px;
+}
