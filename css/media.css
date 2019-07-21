@@ -1,0 +1,234 @@
+
+/* Media Queries */
+
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+
+}
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+    .arr-gif {
+        position: absolute;
+        top: 90vh;
+        right: 6vh;
+        width: 40px;
+    }
+}
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1268px) {
+    .border {
+        position: relative;
+    }
+    
+    .arr-gif {
+        position: absolute;
+        top: 90vh;
+        right: 1vh;
+        width: 40px;
+    }
+    
+    .navigation > div#container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navigation h2 {
+        margin-top: 25px;
+        font-family: 'Lobster', sans-serif;
+        letter-spacing: 0.4em;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .home-overlay a {
+        text-align: center;
+        margin: auto;
+
+    }    
+}
+
+/* 769 - 960 px */
+@media screen and (max-width: 960px) {
+    h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    p {
+        font-size: 13px;
+    }
+
+    .arr-gif {
+        display: none;
+    }
+
+    .start-text img {
+        margin-top: 200px;
+    }
+}
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+        line-height: 60px;
+    }
+    
+    .start-text h2 {
+        font-size: 25px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+    
+    .skills {
+        margin-top: 60px;
+    }
+
+    .skill-box {
+        width: 35%;
+        margin: 10px;
+    }
+    
+    .projects {
+        margin-top: 50px;
+    }
+
+    .projects-list > li {
+        width: 40%; 
+    }
+
+    .workplace-box {
+        height: 120px;
+        display: block;
+        justify-content: space-around;    
+    }
+
+    .border {
+        transform: rotate(90deg);
+        position: absolute;
+        top: 30px;
+        left: 70px;
+    }
+
+    .company {
+        float: left;
+    }
+
+    .type-of-work {
+        margin-top: 10px;   
+        float: left
+        text-align: left;
+    }
+
+}
+
+@media(max-width: 768px) and (min-width: 700px) {
+    .workplace-box {
+        height: 70px;
+        display: block;
+        justify-content: space-around;    
+    }
+}
+
+/* 320 - 480 px */
+@media screen and (max-width: 500px) {
+    .start-text p {
+        font-size: 15px;
+        padding-left: 10px;
+        line-height: 30px;
+    }
+    .start-text h1 {
+        font-size: 22px;
+        padding-left: 10px;
+        line-height: 50px;
+    }
+    .start-text h2 {
+        letter-spacing: 0.2em;
+        line-height: 30px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+
+    .start-text img {
+        width: 70px;
+        position: absolute;
+        top: -140px;
+    }
+
+    .navigation h2 {
+        text-align: center;
+        padding: 0;
+        margin: 10px;
+    }
+
+    .skill-box {
+        width: 48%;
+        padding: 3px 0 3px 0;
+        margin: 20px 0 0 0;
+        display: flex;
+    }
+
+    .skill-box p{
+        font-size: 11px;
+        margin: 3px;
+    }
+
+    .dev-icon {
+        width: 15px;
+        margin: 7px 0 0 3px;
+    }
+
+    .projects-list > li {
+        width: 70%;
+        padding: 10px;
+        margin: 10px 20px 30px 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-title {
+        padding-top: 25px;
+    }
+    
+    .experience {
+        margin-top: 50px;
+    }
+
+    .workplace-box {
+        background-color: #f5f5f5;
+        box-shadow: 10px 2px 10px rgba(0,0,0,0.3);  
+        padding: 10px;
+        display: block;
+        height: 170px;
+        justify-content: space-around;
+        align-items: center;
+        position: relative;    
+    }
+
+    .border {
+        position: absolute;
+        top: 15px;
+        left: 80px;
+        height: 100px;
+    }
+
+    .type-of-work p{
+        font-size: 12px;
+    }
+
+    a > img {
+        width: 20px;
+    }
+
+    p.copyright {
+        font-size: 10px;  
+    }
+}
