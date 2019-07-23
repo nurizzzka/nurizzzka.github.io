@@ -45,7 +45,7 @@ ul {
     height: 100vh;
     text-align: center;
     justify-content: center;
-    background: #a0a8ad url('../img/bg.png') 0 0 no-repeat / cover;
+    background: #a0a8ad url(https://img.purch.com/h/1000/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwNC81NzQvb3JpZ2luYWwvbmdjMzA3OS1jaGFuZHJhLXNwYWNlLWJ1YmJsZXMuanBn) 0 0 no-repeat / cover;
     text-transform: uppercase;
     line-height: 2.5em;
     color: #ffffff;
