@@ -45,7 +45,8 @@ ul {
     height: 100vh;
     text-align: center;
     justify-content: center;
-    background: #a0a8ad url(https://elevateservices.com/wp-content/uploads/AdobeStock_208568531.jpeg) no-repeat / cover;
+    background: #a0a8ad url(https://elevateservices.com/wp-content/uploads/AdobeStock_208568531.jpeg) no-repeat;
+    background-size: cover;
     text-transform: uppercase;
     line-height: 2.5em;
     color: #ffffff;
